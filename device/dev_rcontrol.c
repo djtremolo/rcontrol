@@ -4,11 +4,11 @@
 #include <linux/sched.h>
 #include <linux/errno.h>
 #include <linux/spinlock.h>
-#include <asm/current.h>
-#include <asm/segment.h>
-#include <asm/uaccess.h>
+//#include <asm/current.h>
+//#include <asm/segment.h>
+#include <linux/uaccess.h>
 #include "dev_rcontrol.h"
-#include <asm/delay.h>
+//#include <asm/delay.h>
 #include <linux/delay.h>
 
 MODULE_AUTHOR("SamiSaastamoinen");
